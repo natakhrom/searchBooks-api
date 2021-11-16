@@ -5,3 +5,6 @@
 ## Технологии
 
 HTML, CSS, JavaScript, React, REST API
+
+## Ссылка на работу на GitHub Pages
+https://natakhrom.github.io/searchBooks-api/
