@@ -1,0 +1,72 @@
+.search__form {
+    position: relative;
+    z-index: 2;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.search__row {
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+
+.search__input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.search__button {
+    width: 10%;
+    height: 100%;
+    background: url(../images/loupe.png) no-repeat white 60%;
+    background-size: 40%;
+    padding: 0;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.search__param {
+    display: inline-flex;
+}
+
+.search__description {
+    margin-right: 20px;
+}
+.search__description:first-child {
+    margin-left: 20px;
+}
+
+.search__select {
+    width: 170px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    padding-left: 5px;
+    border-radius: 3px;
+    outline: none;
+}
+
+@media screen and (max-width: 640px) {
+    .search__row {
+        width: 300px;
+    }
+    .search__select {
+        width: 100px;
+    }
+}
