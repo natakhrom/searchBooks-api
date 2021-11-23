@@ -84,7 +84,7 @@ function App() {
         <Switch>
         {isLoading ? 
           <Spinner /> : 
-          <Route exact path="/">
+          <Route exact path="/searchBooks-api">
             <BooksList books={books} totalItems={totalItems} onClick={handleClickOnButtonLoadMore} handleClick={handleBookClick} isBookList={isBookList} sortByDate={sortByDate} />
           </Route>}
         <Route path="/about-book">
