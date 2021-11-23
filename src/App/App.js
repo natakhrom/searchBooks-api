@@ -6,7 +6,7 @@ import BooksList from '../BooksList/BooksList';
 import Spinner from '../Spinner/Spinner';
 import noCover from '../images/noCover.jpg'
 import AboutBook from '../AboutBook/AboutBook';
-import { Route } from 'react-router';
+import { Route, Switch } from 'react-router';
 
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
     });
   }
 
-  // сортировка книг по дате
+  // сортировка книг по дате;
   function handleChangeSorting(sortByDate) {
     setSortByDate(sortByDate);
   }
@@ -81,14 +81,16 @@ function App() {
   return (
     <div className="page">
         <Header handleSubmit={handleSubmit} handleCategoryChange={handleCategoryChange} onChangeSorting={handleChangeSorting} />
+        <Switch>
         {isLoading ? 
           <Spinner /> : 
           <Route exact path="/">
             <BooksList books={books} totalItems={totalItems} onClick={handleClickOnButtonLoadMore} handleClick={handleBookClick} isBookList={isBookList} sortByDate={sortByDate} />
           </Route>}
-          <Route path="/about-book">
+        <Route path="/about-book">
             <AboutBook book={selectedBook}/>
-          </Route> 
+        </Route> 
+        </Switch>
     </div>
   );
 }
