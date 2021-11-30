@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e2a0828.chunk.css",
-    "main.js": "/static/js/main.d74d49aa.chunk.js",
-    "main.js.map": "/static/js/main.d74d49aa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92a55e0f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92a55e0f.js.map",
-    "static/js/2.bd223c04.chunk.js": "/static/js/2.bd223c04.chunk.js",
-    "static/js/2.bd223c04.chunk.js.map": "/static/js/2.bd223c04.chunk.js.map",
-    "static/js/3.99e4b218.chunk.js": "/static/js/3.99e4b218.chunk.js",
-    "static/js/3.99e4b218.chunk.js.map": "/static/js/3.99e4b218.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0e2a0828.chunk.css.map": "/static/css/main.0e2a0828.chunk.css.map",
-    "static/js/2.bd223c04.chunk.js.LICENSE.txt": "/static/js/2.bd223c04.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/static/media/imgBook.21b4e9ac.jpg",
-    "static/media/Search.css": "/static/media/loupe.2577cc98.png",
-    "static/media/noCover.b6c09a7e.jpg": "/static/media/noCover.b6c09a7e.jpg"
+    "main.css": "/searchBooks-api/static/css/main.e598bdeb.chunk.css",
+    "main.js": "/searchBooks-api/static/js/main.4324494a.chunk.js",
+    "main.js.map": "/searchBooks-api/static/js/main.4324494a.chunk.js.map",
+    "runtime-main.js": "/searchBooks-api/static/js/runtime-main.8111e3e9.js",
+    "runtime-main.js.map": "/searchBooks-api/static/js/runtime-main.8111e3e9.js.map",
+    "static/js/2.bd223c04.chunk.js": "/searchBooks-api/static/js/2.bd223c04.chunk.js",
+    "static/js/2.bd223c04.chunk.js.map": "/searchBooks-api/static/js/2.bd223c04.chunk.js.map",
+    "static/js/3.99e4b218.chunk.js": "/searchBooks-api/static/js/3.99e4b218.chunk.js",
+    "static/js/3.99e4b218.chunk.js.map": "/searchBooks-api/static/js/3.99e4b218.chunk.js.map",
+    "index.html": "/searchBooks-api/index.html",
+    "static/css/main.e598bdeb.chunk.css.map": "/searchBooks-api/static/css/main.e598bdeb.chunk.css.map",
+    "static/js/2.bd223c04.chunk.js.LICENSE.txt": "/searchBooks-api/static/js/2.bd223c04.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/searchBooks-api/static/media/imgBook.21b4e9ac.jpg",
+    "static/media/Search.css": "/searchBooks-api/static/media/loupe.2577cc98.png",
+    "static/media/noCover.b6c09a7e.jpg": "/searchBooks-api/static/media/noCover.b6c09a7e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92a55e0f.js",
+    "static/js/runtime-main.8111e3e9.js",
     "static/js/2.bd223c04.chunk.js",
-    "static/css/main.0e2a0828.chunk.css",
-    "static/js/main.d74d49aa.chunk.js"
+    "static/css/main.e598bdeb.chunk.css",
+    "static/js/main.4324494a.chunk.js"
   ]
 }
